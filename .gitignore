@@ -1,0 +1,63 @@
+# ===========================================================================================
+# .gitignore - Файл для исключения файлов из Git репозитория
+# ===========================================================================================
+# Этот файл указывает Git какие файлы не нужно коммитить в репозиторий
+# ===========================================================================================
+
+# Переменные окружения (содержат чувствительные данные)
+.env
+.env.local
+.env.*.local
+
+# Python кеш файлы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальное окружение Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE специфичные файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Flask экземпляр папка
+instance/
+
+# Pytest кеш
+.pytest_cache/
+
+# Файлы логирования
+*.log
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Flask
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST

@@ -1,0 +1,30 @@
+{
+  "name": "ai-translator-critic",
+  "version": "1.0.0",
+  "description": "AI Translator & Critic - Flask приложение с UI и unit тестами",
+  "main": "src/app.py",
+  "scripts": {
+    "test": "pytest tests/ -v",
+    "test:unit": "pytest tests/unit/ -v",
+    "test:coverage": "pytest tests/ --cov=src --cov-report=html",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:headless": "cypress run --headless"
+  },
+  "keywords": [
+    "flask",
+    "translation",
+    "ai",
+    "llm",
+    "testing",
+    "cypress",
+    "pytest"
+  ],
+  "author": "AI Backend Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "dependencies": {}
+}
